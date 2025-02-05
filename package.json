@@ -1,16 +1,16 @@
 {
-  "name": "srv",
-  "version": "1.0",
-  "author": {
-    "name": "MSd"
+  "name": "cloudflare-pages-proxy",
+  "version": "1.0.0",
+  "description": "A Cloudflare Pages project with a function to proxy requests to miraji.mine.bz.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "publish": "wrangler pages publish ."
   },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
-    "wrangler": "latest",
-    "javascript-obfuscator": "latest"
-  },
-  "dependencies": {
-    "jose": "^5.9.4",
-    "js-sha256": "^0.11.0",
-    "tweetnacl": "^1.0.3"
+    "wrangler": "^2.15.0"
   }
 }
